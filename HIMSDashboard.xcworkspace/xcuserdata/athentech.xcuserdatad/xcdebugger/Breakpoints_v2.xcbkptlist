@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A37E8924-8E99-4973-9860-39FD459FFCB1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B9042CC-334D-4773-A76B-2F2DF3DD57C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HIMSDashboard/DoctorHomeVC/DoctorHomeVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "calendar(_:didSelect:at:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2B9042CC-334D-4773-A76B-2F2DF3DD57C0 - 9c22c225d5b124a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HIMSDashboard.DoctorHomeVc.calendar(_: __C.FSCalendar, didSelect: Foundation.Date, at: __C.FSCalendarMonthPosition) -&gt; ()"
+                  moduleName = "HIMSDashboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/athentech/Desktop/Athentech%20Hdb%20Dashboard/HIMSDashboard/HIMSDashboard/DoctorHomeVC/DoctorHomeVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "2B9042CC-334D-4773-A76B-2F2DF3DD57C0 - 9c22c225d5b125f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HIMSDashboard.DoctorHomeVc.calendar(_: __C.FSCalendar, didSelect: Foundation.Date, at: __C.FSCalendarMonthPosition) -&gt; ()"
+                  moduleName = "HIMSDashboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/athentech/Desktop/Athentech%20Hdb%20Dashboard/HIMSDashboard/HIMSDashboard/DoctorHomeVC/DoctorHomeVc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71A0AF09-55ED-4CF1-82F1-02E7C8F372DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HIMSDashboard/DoctorHomeVC/DoctorHomeVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "previousDateActBtn()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

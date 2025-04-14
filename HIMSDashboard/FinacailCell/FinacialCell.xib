@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FinacialCell" rowHeight="130" id="KGk-i7-Jjw" customClass="FinacialCell" customModule="HIMSDashboard" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="419" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="419" height="130"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uIp-Dr-oPZ">
+                        <rect key="frame" x="0.0" y="0.0" width="419" height="130"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finacial Glance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csa-i8-ZY6">
+                                <rect key="frame" x="10" y="0.0" width="109.5" height="18"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" systemColor="viewFlipsideBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="dOI-92-37P">
+                                <rect key="frame" x="10" y="23" width="399" height="102"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="F44-NO-1ZS">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dOI-92-37P" secondAttribute="trailing" constant="10" id="2cP-R6-EFK"/>
+                            <constraint firstItem="csa-i8-ZY6" firstAttribute="top" secondItem="uIp-Dr-oPZ" secondAttribute="top" id="5Xc-7S-KNH"/>
+                            <constraint firstAttribute="bottom" secondItem="dOI-92-37P" secondAttribute="bottom" constant="5" id="Yae-WG-sQr"/>
+                            <constraint firstItem="dOI-92-37P" firstAttribute="top" secondItem="csa-i8-ZY6" secondAttribute="bottom" constant="5" id="bll-YS-Ora"/>
+                            <constraint firstItem="dOI-92-37P" firstAttribute="leading" secondItem="csa-i8-ZY6" secondAttribute="leading" id="dVn-1D-Lck"/>
+                            <constraint firstItem="csa-i8-ZY6" firstAttribute="leading" secondItem="uIp-Dr-oPZ" secondAttribute="leading" constant="10" id="gUe-HJ-l3Q"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uIp-Dr-oPZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="O0A-Sz-iF1"/>
+                    <constraint firstItem="uIp-Dr-oPZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="XaG-eX-myk"/>
+                    <constraint firstAttribute="trailing" secondItem="uIp-Dr-oPZ" secondAttribute="trailing" id="XfV-PC-qbq"/>
+                    <constraint firstAttribute="bottom" secondItem="uIp-Dr-oPZ" secondAttribute="bottom" id="x5l-po-WdZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="finacialCollectionView" destination="dOI-92-37P" id="waM-yE-39f"/>
+                <outlet property="titleLbl" destination="csa-i8-ZY6" id="W2W-hn-d4X"/>
+            </connections>
+            <point key="canvasLocation" x="209.42028985507247" y="106.47321428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

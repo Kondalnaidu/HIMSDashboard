@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AdmissionHeaderCell" rowHeight="63" id="KGk-i7-Jjw" customClass="AdmissionHeaderCell" customModule="HIMSDashboard" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="346" height="63"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="346" height="63"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jM3-5p-LQS">
+                        <rect key="frame" x="0.0" y="0.0" width="346" height="63"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="28W-ik-aOg">
+                                <rect key="frame" x="10" y="0.0" width="326" height="63"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Month" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bot-dz-l4N">
+                                        <rect key="frame" x="0.0" y="0.0" width="102" height="63"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Admission" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRy-OX-PQD">
+                                        <rect key="frame" x="112" y="0.0" width="102" height="63"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discharge" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laN-yf-Q8d">
+                                        <rect key="frame" x="224" y="0.0" width="102" height="63"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="28W-ik-aOg" secondAttribute="bottom" id="Kcd-Jm-7pp"/>
+                            <constraint firstItem="28W-ik-aOg" firstAttribute="top" secondItem="jM3-5p-LQS" secondAttribute="top" id="XSs-KK-RFk"/>
+                            <constraint firstItem="28W-ik-aOg" firstAttribute="leading" secondItem="jM3-5p-LQS" secondAttribute="leading" constant="10" id="lcZ-MH-MFQ"/>
+                            <constraint firstAttribute="trailing" secondItem="28W-ik-aOg" secondAttribute="trailing" constant="10" id="q1F-wF-jRk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="jM3-5p-LQS" secondAttribute="trailing" id="1r8-u1-7P9"/>
+                    <constraint firstAttribute="bottom" secondItem="jM3-5p-LQS" secondAttribute="bottom" id="MCZ-kD-ga7"/>
+                    <constraint firstItem="jM3-5p-LQS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="g4S-mw-JLh"/>
+                    <constraint firstItem="jM3-5p-LQS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="yDC-dF-DZc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="39.694656488549619" y="5.2816901408450709"/>
+        </tableViewCell>
+    </objects>
+</document>
